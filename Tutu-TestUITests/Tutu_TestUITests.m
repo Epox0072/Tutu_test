@@ -2,7 +2,7 @@
 //  Tutu_TestUITests.m
 //  Tutu-TestUITests
 //
-//  Created by Andrew Zubarew on 11/09/16.
+//  Created by Станилсав Гапонов on 11/09/16.
 //  Copyright © 2016 Stanislav Gaponov. All rights reserved.
 //
 

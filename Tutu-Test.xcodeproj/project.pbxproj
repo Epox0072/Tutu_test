@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7401E0831D84F40C006F35B8 /* allStations.json in Resources */ = {isa = PBXBuildFile; fileRef = 7401E0821D84F40C006F35B8 /* allStations.json */; };
+		740A4C591D8C3DD900D99BBF /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 740A4C581D8C3DD900D99BBF /* Helper.m */; };
+		740F20451D88B8FD001EE8EF /* AboutAppVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 740F20441D88B8FD001EE8EF /* AboutAppVC.m */; };
+		740F204B1D88B9A4001EE8EF /* StationsTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 740F204A1D88B9A4001EE8EF /* StationsTVC.m */; };
+		7411A09A1D8AE3E0001D40A2 /* StationDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7411A0991D8AE3E0001D40A2 /* StationDetailsVC.m */; };
+		741E812F1D8E0E54002C5839 /* ScheduleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 741E812E1D8E0E54002C5839 /* ScheduleVC.m */; };
+		74B42E5E1D8E22B000F43B11 /* splash@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B42E5D1D8E22B000F43B11 /* splash@3x.png */; };
+		74B42E601D8E22F900F43B11 /* splash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B42E5F1D8E22F900F43B11 /* splash@2x.png */; };
 		74F70DAF1D84C719000680BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F70DAE1D84C719000680BF /* main.m */; };
 		74F70DB21D84C719000680BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F70DB11D84C719000680BF /* AppDelegate.m */; };
-		74F70DB51D84C719000680BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F70DB41D84C719000680BF /* ViewController.m */; };
+		74F70DB51D84C719000680BF /* MainScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F70DB41D84C719000680BF /* MainScreen.m */; };
 		74F70DB81D84C719000680BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74F70DB61D84C719000680BF /* Main.storyboard */; };
-		74F70DBB1D84C719000680BF /* Tutu_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 74F70DB91D84C719000680BF /* Tutu_Test.xcdatamodeld */; };
 		74F70DBD1D84C719000680BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74F70DBC1D84C719000680BF /* Assets.xcassets */; };
 		74F70DC01D84C719000680BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74F70DBE1D84C719000680BF /* LaunchScreen.storyboard */; };
 		74F70DCB1D84C719000680BF /* Tutu_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F70DCA1D84C719000680BF /* Tutu_TestTests.m */; };
 		74F70DD61D84C719000680BF /* Tutu_TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F70DD51D84C719000680BF /* Tutu_TestUITests.m */; };
+		74F70DE51D84C898000680BF /* Coordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F70DE41D84C898000680BF /* Coordinate.m */; };
+		74F70DE91D84CA86000680BF /* Station.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F70DE81D84CA86000680BF /* Station.m */; };
+		74F70DEC1D84CCDD000680BF /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F70DEB1D84CCDD000680BF /* City.m */; };
+		74F70DF21D84D94B000680BF /* DataBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F70DF11D84D94B000680BF /* DataBuilder.m */; };
+		74F70DF51D84F03D000680BF /* DataCities.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F70DF41D84F03D000680BF /* DataCities.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +48,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7401E0821D84F40C006F35B8 /* allStations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = allStations.json; sourceTree = "<group>"; };
+		740A4C571D8C3DD900D99BBF /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		740A4C581D8C3DD900D99BBF /* Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
+		740F20431D88B8FD001EE8EF /* AboutAppVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutAppVC.h; sourceTree = "<group>"; };
+		740F20441D88B8FD001EE8EF /* AboutAppVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutAppVC.m; sourceTree = "<group>"; };
+		740F20491D88B9A4001EE8EF /* StationsTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StationsTVC.h; sourceTree = "<group>"; };
+		740F204A1D88B9A4001EE8EF /* StationsTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StationsTVC.m; sourceTree = "<group>"; };
+		7411A0981D8AE3E0001D40A2 /* StationDetailsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StationDetailsVC.h; sourceTree = "<group>"; };
+		7411A0991D8AE3E0001D40A2 /* StationDetailsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StationDetailsVC.m; sourceTree = "<group>"; };
+		7411A09B1D8AEA2C001D40A2 /* Protocols.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Protocols.h; sourceTree = "<group>"; };
+		741E812D1D8E0E54002C5839 /* ScheduleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleVC.h; sourceTree = "<group>"; };
+		741E812E1D8E0E54002C5839 /* ScheduleVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleVC.m; sourceTree = "<group>"; };
+		74B42E5D1D8E22B000F43B11 /* splash@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash@3x.png"; sourceTree = "<group>"; };
+		74B42E5F1D8E22F900F43B11 /* splash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash@2x.png"; sourceTree = "<group>"; };
 		74F70DAA1D84C718000680BF /* Tutu-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tutu-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74F70DAE1D84C719000680BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		74F70DB01D84C719000680BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		74F70DB11D84C719000680BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		74F70DB31D84C719000680BF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		74F70DB41D84C719000680BF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		74F70DB31D84C719000680BF /* MainScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainScreen.h; sourceTree = "<group>"; };
+		74F70DB41D84C719000680BF /* MainScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainScreen.m; sourceTree = "<group>"; };
 		74F70DB71D84C719000680BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		74F70DBA1D84C719000680BF /* Tutu_Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tutu_Test.xcdatamodel; sourceTree = "<group>"; };
 		74F70DBC1D84C719000680BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74F70DBF1D84C719000680BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74F70DC11D84C719000680BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,6 +78,16 @@
 		74F70DD11D84C719000680BF /* Tutu-TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tutu-TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74F70DD51D84C719000680BF /* Tutu_TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tutu_TestUITests.m; sourceTree = "<group>"; };
 		74F70DD71D84C719000680BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74F70DE31D84C898000680BF /* Coordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coordinate.h; sourceTree = "<group>"; };
+		74F70DE41D84C898000680BF /* Coordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coordinate.m; sourceTree = "<group>"; };
+		74F70DE71D84CA86000680BF /* Station.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Station.h; sourceTree = "<group>"; };
+		74F70DE81D84CA86000680BF /* Station.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Station.m; sourceTree = "<group>"; };
+		74F70DEA1D84CCDD000680BF /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		74F70DEB1D84CCDD000680BF /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		74F70DF01D84D94B000680BF /* DataBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBuilder.h; sourceTree = "<group>"; };
+		74F70DF11D84D94B000680BF /* DataBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBuilder.m; sourceTree = "<group>"; };
+		74F70DF31D84F03D000680BF /* DataCities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataCities.h; sourceTree = "<group>"; };
+		74F70DF41D84F03D000680BF /* DataCities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataCities.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +115,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		74B42E5C1D8E229500F43B11 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				74B42E5F1D8E22F900F43B11 /* splash@2x.png */,
+				74B42E5D1D8E22B000F43B11 /* splash@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		74F70DA11D84C718000680BF = {
 			isa = PBXGroup;
 			children = (
@@ -105,13 +149,23 @@
 			children = (
 				74F70DB01D84C719000680BF /* AppDelegate.h */,
 				74F70DB11D84C719000680BF /* AppDelegate.m */,
-				74F70DB31D84C719000680BF /* ViewController.h */,
-				74F70DB41D84C719000680BF /* ViewController.m */,
+				74F70DB31D84C719000680BF /* MainScreen.h */,
+				74F70DB41D84C719000680BF /* MainScreen.m */,
+				740F20431D88B8FD001EE8EF /* AboutAppVC.h */,
+				740F20441D88B8FD001EE8EF /* AboutAppVC.m */,
+				740F20491D88B9A4001EE8EF /* StationsTVC.h */,
+				740F204A1D88B9A4001EE8EF /* StationsTVC.m */,
+				7411A0981D8AE3E0001D40A2 /* StationDetailsVC.h */,
+				7411A0991D8AE3E0001D40A2 /* StationDetailsVC.m */,
+				741E812D1D8E0E54002C5839 /* ScheduleVC.h */,
+				741E812E1D8E0E54002C5839 /* ScheduleVC.m */,
+				7411A09B1D8AEA2C001D40A2 /* Protocols.h */,
+				74F70DE61D84CA60000680BF /* Data Model */,
+				74B42E5C1D8E229500F43B11 /* Resources */,
+				74F70DBE1D84C719000680BF /* LaunchScreen.storyboard */,
 				74F70DB61D84C719000680BF /* Main.storyboard */,
 				74F70DBC1D84C719000680BF /* Assets.xcassets */,
-				74F70DBE1D84C719000680BF /* LaunchScreen.storyboard */,
 				74F70DC11D84C719000680BF /* Info.plist */,
-				74F70DB91D84C719000680BF /* Tutu_Test.xcdatamodeld */,
 				74F70DAD1D84C718000680BF /* Supporting Files */,
 			);
 			path = "Tutu-Test";
@@ -141,6 +195,26 @@
 				74F70DD71D84C719000680BF /* Info.plist */,
 			);
 			path = "Tutu-TestUITests";
+			sourceTree = "<group>";
+		};
+		74F70DE61D84CA60000680BF /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				7401E0821D84F40C006F35B8 /* allStations.json */,
+				74F70DE31D84C898000680BF /* Coordinate.h */,
+				74F70DE41D84C898000680BF /* Coordinate.m */,
+				74F70DE71D84CA86000680BF /* Station.h */,
+				74F70DE81D84CA86000680BF /* Station.m */,
+				74F70DEA1D84CCDD000680BF /* City.h */,
+				74F70DEB1D84CCDD000680BF /* City.m */,
+				74F70DF31D84F03D000680BF /* DataCities.h */,
+				74F70DF41D84F03D000680BF /* DataCities.m */,
+				74F70DF01D84D94B000680BF /* DataBuilder.h */,
+				74F70DF11D84D94B000680BF /* DataBuilder.m */,
+				740A4C571D8C3DD900D99BBF /* Helper.h */,
+				740A4C581D8C3DD900D99BBF /* Helper.m */,
+			);
+			name = "Data Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,11 +279,12 @@
 		74F70DA21D84C718000680BF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Stanislav Gaponov";
 				TargetAttributes = {
 					74F70DA91D84C718000680BF = {
 						CreatedOnToolsVersion = 7.3.1;
+						ProvisioningStyle = Automatic;
 					};
 					74F70DC51D84C719000680BF = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -246,6 +321,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74B42E5E1D8E22B000F43B11 /* splash@3x.png in Resources */,
+				74B42E601D8E22F900F43B11 /* splash@2x.png in Resources */,
+				7401E0831D84F40C006F35B8 /* allStations.json in Resources */,
 				74F70DC01D84C719000680BF /* LaunchScreen.storyboard in Resources */,
 				74F70DBD1D84C719000680BF /* Assets.xcassets in Resources */,
 				74F70DB81D84C719000680BF /* Main.storyboard in Resources */,
@@ -273,10 +351,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74F70DB51D84C719000680BF /* ViewController.m in Sources */,
+				740F20451D88B8FD001EE8EF /* AboutAppVC.m in Sources */,
+				740F204B1D88B9A4001EE8EF /* StationsTVC.m in Sources */,
+				74F70DB51D84C719000680BF /* MainScreen.m in Sources */,
 				74F70DB21D84C719000680BF /* AppDelegate.m in Sources */,
+				74F70DF21D84D94B000680BF /* DataBuilder.m in Sources */,
+				741E812F1D8E0E54002C5839 /* ScheduleVC.m in Sources */,
+				74F70DF51D84F03D000680BF /* DataCities.m in Sources */,
+				74F70DE91D84CA86000680BF /* Station.m in Sources */,
+				740A4C591D8C3DD900D99BBF /* Helper.m in Sources */,
 				74F70DAF1D84C719000680BF /* main.m in Sources */,
-				74F70DBB1D84C719000680BF /* Tutu_Test.xcdatamodeld in Sources */,
+				74F70DE51D84C898000680BF /* Coordinate.m in Sources */,
+				7411A09A1D8AE3E0001D40A2 /* StationDetailsVC.m in Sources */,
+				74F70DEC1D84CCDD000680BF /* City.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,8 +432,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -390,8 +479,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -419,10 +510,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Tutu-Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tutu.Tutu-Test";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LOAL.Tutu-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -430,10 +526,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Tutu-Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tutu.Tutu-Test";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LOAL.Tutu-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -502,6 +603,7 @@
 				74F70DDC1D84C719000680BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74F70DDD1D84C719000680BF /* Build configuration list for PBXNativeTarget "Tutu-TestTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +612,7 @@
 				74F70DDF1D84C719000680BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74F70DE01D84C719000680BF /* Build configuration list for PBXNativeTarget "Tutu-TestUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,21 +621,9 @@
 				74F70DE21D84C719000680BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		74F70DB91D84C719000680BF /* Tutu_Test.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				74F70DBA1D84C719000680BF /* Tutu_Test.xcdatamodel */,
-			);
-			currentVersion = 74F70DBA1D84C719000680BF /* Tutu_Test.xcdatamodel */;
-			path = Tutu_Test.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 74F70DA21D84C718000680BF /* Project object */;
 }

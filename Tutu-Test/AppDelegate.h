@@ -2,24 +2,18 @@
 //  AppDelegate.h
 //  Tutu-Test
 //
-//  Created by Andrew Zubarew on 11/09/16.
+//  Created by Станилсав Гапонов on 11/09/16.
 //  Copyright © 2016 Stanislav Gaponov. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-#import <CoreData/CoreData.h>
+#import "DataCities.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
-@property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
-@property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
-
-- (void)saveContext;
-- (NSURL *)applicationDocumentsDirectory;
-
+@property (strong, nonatomic) DataCities *dataCities;
 
 @end
 
